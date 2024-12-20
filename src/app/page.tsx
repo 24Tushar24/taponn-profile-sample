@@ -1,5 +1,4 @@
 "use client";
-import React, { useState, useEffect } from "react";
 import { Box, Typography, Button, IconButton } from "@mui/material";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaSnapchat, FaPinterest } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
