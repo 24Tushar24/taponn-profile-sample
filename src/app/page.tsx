@@ -1,5 +1,6 @@
 "use client";
 import { Box, Typography, Button, IconButton } from "@mui/material";
+import Link from "next/link";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaSnapchat, FaPinterest } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { Parallax } from "react-parallax";
@@ -16,7 +17,7 @@ const ParallaxPage = () => {
   ];
 
   const socialIcons = Array.from({ length: 48 }, (_, index) => icons[index % icons.length]);
-
+  const path='https://taponn.digital/'
   return (
     <Box
       sx={{
@@ -209,7 +210,7 @@ const ParallaxPage = () => {
                 );
               })}
             </Box>
-
+            <Link href={path}>
             <Button
               sx={{
                 borderRadius: 5,
@@ -222,6 +223,7 @@ const ParallaxPage = () => {
             >
               Open in Taponn
             </Button>
+            </Link>
           </Box>
         </Box>
       </Parallax>
