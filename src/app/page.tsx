@@ -17,7 +17,7 @@ const ParallaxPage = () => {
   ];
 
   const socialIcons = Array.from({ length: 48 }, (_, index) => icons[index % icons.length]);
-  const path = 'https://taponn.digital/'
+  const path = 'https://apps.apple.com/app/id1601766387'
   return (
     <Box
       sx={{
