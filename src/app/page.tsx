@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaSnapchat, FaPinterest } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { Parallax } from "react-parallax";
+import { HiOutlineUserAdd } from "react-icons/hi";
 
 const ParallaxPage = () => {
   const icons = [
@@ -152,6 +153,7 @@ const ParallaxPage = () => {
                       width: 50,
                       height: 50,
                       borderRadius: "50%",
+                      borderColor: 'rgb(113, 121, 131)',
                       boxShadow: 3,
                       ml: -12,
                       "&:hover": {
@@ -159,7 +161,7 @@ const ParallaxPage = () => {
                       },
                     }}
                   >
-                    <IoMdContact size={30} />
+                    <HiOutlineUserAdd size={20} />
                   </IconButton>
                 </Box>
               </Box>
