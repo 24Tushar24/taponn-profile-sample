@@ -17,7 +17,7 @@ const ParallaxPage = () => {
   ];
 
   const socialIcons = Array.from({ length: 48 }, (_, index) => icons[index % icons.length]);
-  const path='https://taponn.digital/'
+  const path = 'https://taponn.digital/'
   return (
     <Box
       sx={{
@@ -108,7 +108,7 @@ const ParallaxPage = () => {
               </Typography>
               <Typography
                 variant="body2"
-                sx={{ marginTop: 1, marginBottom: 2, color: "white", opacity: 0.8 }}
+                sx={{ marginTop: 1, marginBottom: 2, color: "rgb(113, 121, 131)", opacity: 0.8 }}
               >
                 I am a passionate and results-driven software developer with a strong foundation in
                 building efficient.
@@ -128,9 +128,10 @@ const ParallaxPage = () => {
                     width: "68%",
                     textTransform: "none",
                     ml: 2,
-                    color: "white",
+                    color: "rgb(113, 121, 131)",
                     background: "rgb(31, 33, 48)",
-                    borderRadius: 5,
+                    borderRadius: 6,
+                    borderColor: 'rgb(113, 121, 131)'
                   }}
                 >
                   Exchange Contact
@@ -211,18 +212,18 @@ const ParallaxPage = () => {
               })}
             </Box>
             <Link href={path}>
-            <Button
-              sx={{
-                borderRadius: 5,
-                background: "rgb(25, 168, 196)",
-                color: "white",
-                mt: 5,
-                p: 1,
-                width: 200,
-              }}
-            >
-              Open in Taponn
-            </Button>
+              <Button
+                sx={{
+                  borderRadius: 5,
+                  background: "rgb(25, 168, 196)",
+                  color: "white",
+                  mt: 5,
+                  p: 1,
+                  width: 200,
+                }}
+              >
+                Open in TapOnn
+              </Button>
             </Link>
           </Box>
         </Box>
