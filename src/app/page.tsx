@@ -2,7 +2,6 @@
 import { Box, Typography, Button, IconButton } from "@mui/material";
 import Link from "next/link";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaSnapchat, FaPinterest } from "react-icons/fa";
-import { IoMdContact } from "react-icons/io";
 import { Parallax } from "react-parallax";
 import { HiOutlineUserAdd } from "react-icons/hi";
 
